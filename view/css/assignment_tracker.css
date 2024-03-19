@@ -1,0 +1,102 @@
+
+/* Header Styles */
+.list__header {
+    background-color: #B8C0FF;
+    padding: 10px;
+}
+
+.list__header h1 {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.list__header__select {
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.list__header__select select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.list__header__select button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #8591ea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* List element styles */
+.list__row {
+    border-bottom: 1px solid #C8B6FF;
+    padding: 10px 0;
+}
+
+.list__item p.bold {
+    font-weight: bold;
+}
+
+.list__removeItem {
+    float: right;
+    transform: translateY(-50px);
+}
+
+.remove-button{
+    background-color: #C8B6FF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Assignment styles */
+.add {
+    margin-top: 20px;
+    display: block;
+}
+
+.add h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.add__form {
+    margin-bottom: 20px;
+}
+
+.add__inputs label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add__inputs select,
+.add__inputs input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.add__addItem button {
+    background-color: #C8B6FF;
+    font-size: large;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.add__footer a {
+    color: #C8B6FF;
+    text-decoration: none;
+}
+
+.add__footer a:hover {
+    text-decoration: underline;
+}
